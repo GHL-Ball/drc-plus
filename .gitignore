@@ -1,0 +1,22 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
+
+# 環境変数
+.Renviron
+
+# データと結果
+*.rds
+*.sqlite
+*.csv
+
+# Stan のコンパイルで作られるファイル
+stan/*.exe
+stan/*.hpp
+
+# その他
+.DS_Store
+.quarto
